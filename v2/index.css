@@ -1,0 +1,74 @@
+body{
+    background-color: #000;
+}
+
+.cv-resume-main{
+    width: 40%;
+    background-color: white;
+    margin: 0 auto;
+}
+
+.cv-header{
+    background-color: hsl(204 54% 36% / 1);
+    color: #fff;
+    padding: 0px 10px 1px 15px;
+}
+
+.cv-body{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cv-body-section1{
+    flex: 75%;
+    margin-right: 23px
+}
+
+.cv-body-section2{
+    flex: 25%;
+    background-color: rgb(224 225 226);
+}
+.info-icon-text{
+    display: flex; 
+    align-items: center; 
+    gap: 8px;
+}
+
+.skill-bar{
+    background-color: hsl(204 54% 36% / 1);
+}
+hr{
+    height:2px;border-width:0;
+    background-color:hsl(204 54% 36% / 1);
+    margin: top 0;
+}
+
+.skill-title {
+    margin: 4px 0;
+}
+
+.skill-bar {
+    background-color: hsl(204 54% 36%);
+    height: 16px;
+    margin: 4px 0 8px 0px;
+    border-radius: 0px 22px 22px 0px;
+}
+
+.skill-1, .skill-4{
+    width: 75%;
+}
+.skill-3, .skill-5{
+    width: 50%;
+}
+.skill-2{
+    width: 25%;
+}
+
+.section-title, i{
+    color: hsl(204 54% 36% / 1);
+    margin-bottom: 0;
+}
+
+.section-content{
+    margin-left: 10px;
+}
